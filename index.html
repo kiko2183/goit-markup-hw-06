@@ -121,12 +121,12 @@
         </div>
     </header> -->
     <main>
-        <!--<section class="title">
+        <!-- <section class="title">
             <div class="container title-container">
-                <h1 class="title-text">Effective Solutions <br/> for Your Business</h1>
-                <button class="title-button" type="button">Order Service</button>
-            </div>
-        </section>-->
+                <h1 class="title-text">Effective Solutions <br /> for Your Business</h1>
+                <button class="title-button" type="button">Order Service</button> -->
+        </div>
+        </section>
         <!-- <section class="strategy">
             <div class="container future-container">
                 <h2 class="visually-hidden">Future</h2>
@@ -187,7 +187,8 @@
                 <h2 class="our-team">Our Team</h2>
                 <ul class="peple-list">
                     <li class="peple">
-                        <img src="./images/imgteam.jpg" alt="Mark Guerrero" width="264">
+                        <img srcset="./images/imgteam-1x.jpg 1x, ./images/imgteam-2x.jpg 2x"
+                            src="./images/imgteam-1x.jpg" alt="Mark Guerrero" width="264">
                         <div class="list-names">
                             <h3 class="names">Mark Guerrero</h3>
                             <p class="under-names">Product Designer</p>
@@ -224,7 +225,8 @@
                         </div>
                     </li>
                     <li class="peple">
-                        <img src="./images/imgteam2.jpg" alt="Tom Ford" width="264">
+                        <img srcset="./images/imgteam2-1x.jpg 1x, ./images/imgteam2-2x.jpg 2x"
+                            src="./images/imgteam2-1x.jpg" alt="Tom Ford" width="264">
                         <div class="list-names">
                             <h3 class="names">Tom Ford</h3>
                             <p class="under-names">Frontend Developer</p>
@@ -261,7 +263,8 @@
                         </div>
                     </li>
                     <li class="peple">
-                        <img src="./images/imgteam3.jpg" alt="Camila Garcia" width="264">
+                        <img srcset="./images/imgteam3-1x.jpg 1x, ./images/imgteam3-2x.jpg 2x"
+                            src="./images/imgteam3-1x.jpg" alt="Camila Garcia" width="264">
                         <div class="list-names">
                             <h3 class="names">Camila Garcia</h3>
                             <p class="under-names">Marketing</p>
@@ -298,7 +301,8 @@
                         </div>
                     </li>
                     <li class="peple">
-                        <img src="./images/imgteam4.jpg" alt="Daniel Wilson" width="264">
+                        <img srcset="./images/imgteam4-1x.jpg 1x, ./images/imgteam4-2x.jpg 2x"
+                            src="./images/imgteam4-1x.jpg" alt="Daniel Wilson" width="264">
                         <div class="list-names">
                             <h3 class="names">Daniel Wilson</h3>
                             <p class="under-names">UI Designer</p>
@@ -336,15 +340,19 @@
                     </li>
                 </ul>
             </div>
-        </section>-->
-        <!--  <section class="apps">
+        </section> -->
+        <section class="apps">
             <div class="container app-container">
                 <h2 class="title-app">Our Portfolio</h2>
                 <ul class="list-app">
                     <li class="list-app-text">
                         <div class="overlay">
+                            <picture>
+                                <source srcset="" media="(min-width:320px)" />
+                            </picture>
                             <img src="./images/imgportfolio1.jpg" alt="banking app" width="360">
-                            <p class="overlay-title">14 Stylish and User-Friendly App Design Concepts · Task Manager App
+                            <p class="overlay-title">14 Stylish and User-Friendly App Design Concepts · Task Manager
+                                App
                                 · Calorie Tracker App
                                 · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
@@ -415,15 +423,14 @@
                     </li>
                 </ul>
             </div>
-        </section>-->
+        </section>
     </main>
-    <footer class="end">
+    <!-- <footer class="end">
         <div class="container end-container">
             <div class="end-logo">
                 <a class="footer-logo" href="./index.html">
                     Web<span class="footer-title">Studio</span></a>
                 <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing
-                    &
                     growth solutions.
                 </p>
             </div>
@@ -474,8 +481,8 @@
                 </form>
             </div>
         </div>
-    </footer>
-    <!-- <div class="backdrop">
+    </footer> -->
+    <!-- <div class="backdrop open-backdrop">
         <div class="modal">
             <button class="button-close" type="button"><svg width="8" height="8" class="modal-close">
                     <use href="./images/icons.svg#icon-x"></use>
@@ -520,8 +527,10 @@
                     <label for="user-privacy" class="policy-text"><span class="checkbox-privacy"><svg width="10"
                                 height="8" class="label-privacy-svg">
                                 <use href="./images/icons.svg#icon-Vector"></use>
-                            </svg></span>I accept the terms and conditions of the
-                        <a href="" class="modal-checbox-href">Privacy Policy</a>
+                            </svg></span>
+                        <div>I accept the terms and conditions of the
+                            <a href="" class="modal-checbox-href">Privacy Policy</a>
+                        </div>
                     </label>
                 </div>
                 <button class="module-button" type="submit">Send</button>
