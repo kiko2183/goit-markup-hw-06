@@ -305,6 +305,7 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 @media (min-resolution: 192dpi), (min-width: 320px) {
