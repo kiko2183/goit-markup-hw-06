@@ -932,7 +932,7 @@ img {
   text-decoration: underline;
 }
 
-.policy-text span {
+.policy-text .checkbox-privacy {
   height: 16px;
   min-width: 16px;
   border-radius: 2px;
@@ -947,7 +947,7 @@ img {
   fill: transparent;
 }
 
-.policy-input:checked + .policy-text span {
+.policy-input:checked + .policy-text .checkbox-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
