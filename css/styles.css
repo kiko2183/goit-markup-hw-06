@@ -198,7 +198,7 @@ img {
   pointer-events: auto;
 }
 
-.open-menu {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
